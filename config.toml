@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Homecloud Dev Notes"
+theme = "hugo-theme-learn"
+pluralizelisttitles = false
+
+[params]
+  showVisistedLinks = false
+  disableInlineCopyToClipBoard = true
+  themeVariant = "green"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
